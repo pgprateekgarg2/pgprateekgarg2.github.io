@@ -1,0 +1,332 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: black;
+    color: white;
+    
+}
+
+#body-header{
+    background-image: url(./image/1733.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-attachment: fixed;;
+}
+
+.horizontal-list{
+    margin:0px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 3vh;
+
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    padding:10px;
+    font-size: 20px;
+
+
+}
+
+.horizontal-list li a:hover{
+    color: lightgrey;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    transition: color 0.5s;
+}
+
+#name{
+    margin:5vh ;
+}
+
+#name h1{
+    color: white;
+    font-size: 5rem;
+    text-shadow: -1px 0px 11px black;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+#my-image{
+    margin-top: -100px;
+
+    
+}
+#my-image img{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #74ADC8;
+
+}
+
+#info p{
+    font-size: 1.8rem;
+    text-align: justify;
+    padding:4rem 7rem 4rem 7rem; 
+}
+
+.heading span{
+    font-size: 2.5rem;
+    padding:3rem 1rem 3rem 1rem;   
+    margin-bottom:2rem; 
+}
+
+#skill-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem;
+}
+.item{
+    text-align: center;
+}
+.item{
+  margin:3rem 8rem 3rem 8rem;
+
+}
+.item span{
+    margin-top: 10px;
+    display: block;
+}
+
+.item span i{
+    font-size: 7rem;
+}
+
+
+
+#portfolio-items{ 
+    margin:5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: center;
+
+}
+
+.port-item{
+  margin:3rem 8rem 3rem 8rem;
+  position: relative;
+
+    
+}
+.port-item img{
+    height: 200px;
+    width: 200px;
+}
+
+.port-item:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+
+.port-details{
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    color: transparent;
+    font-size: 20px;
+    width: 100%;
+}
+
+.port-details:hover{
+    background-color: #19364e78;
+    color: white;
+}
+
+#contact{
+    background: linear-gradient(black,rgb(16, 16, 83));
+}
+
+
+#contact-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+
+
+}
+
+
+#contact-form{
+    margin-left: 60px;
+}
+
+input,textarea{
+    color: white;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+flex-wrap: wrap;
+    background:transparent;
+    align-items: center ;
+    justify-content: center;
+
+}
+
+
+
+form input,textarea{
+    height: 20px;
+    width: 30rem;
+    margin: 20px;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+    background: transparent;
+    border: hidden ;
+    border-bottom: 3px solid white;
+}
+
+form textarea{
+    height:5rem;
+}
+
+
+#send-message{
+
+    height:3rem;
+    width: 10rem;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    text-transform: uppercase;
+}
+
+#details p{
+    text-align: justify;
+}
+
+
+#details{
+    font-size: 1.2rem;
+    margin-left: 50px;
+    padding: 1.3rem;
+}
+
+
+form *{
+    margin-top: 20px;
+}
+
+
+
+
+#experience-details{
+    position: relative;
+    height: auto;
+    width: 110vh;
+    /* border:2px solid whitesmoke; */
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+#experience-box{
+    position: relative;
+    height:20vh;
+    width :50vh;
+    /* border: 2px solid white; */
+    margin:5px;
+    padding: 5px;
+}
+
+#experience-box:nth-child(2n){
+    margin-left: 53.8%;
+}
+#experience-box:nth-child(2n+1){
+    text-align: right;
+}
+#experience-box h2  {
+color: rgb(27, 40, 219);
+}
+
+.company{
+    font-size: 18px;
+    color: red;
+
+}
+
+.company::first-line{
+    font-size: 20px;
+    color: rgb(226, 185, 50);
+}
+
+
+
+#divider{
+    position: absolute;
+    height:75%;
+    width:0%;
+    border: 3px dashed white;
+    top:10%;
+    left:50%
+}
+
+#airplane {
+    position: sticky;
+    top: 30%;
+    transform: rotate(90deg);
+    font-size: 35px;
+    color: rgb(194, 33, 33);
+
+}
+
+
+#html{
+    color: rgb(250, 106, 53);
+}
+
+#css{
+    color: rgb(83, 83, 161);
+}
+#js{
+    color: yellow;
+}
+
+#py{
+    color: teal;
+}
+#node{
+    color:green;
+}
+
+#mongo{
+    color: rgb(109, 206, 109);
+}
+
+#npm{
+    color: red;
+}
+
+.description{
+    text-align: justify !important;
+}
